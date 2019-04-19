@@ -1,0 +1,4 @@
+.search-parameters {
+  display: flex;
+  justify-content: space-between;
+}

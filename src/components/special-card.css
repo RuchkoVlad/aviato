@@ -1,0 +1,84 @@
+.special-card__header {
+  background: var(--red);
+  height: 63px;
+  display: flex;
+  align-items: center;
+  font-family: var(--roboto);
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--white);
+  padding-left: 16px;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.special-card {
+  width: 298px;
+  background: var(--white);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.special-card__main-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.special-card__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.special-card__price {
+  font-family: var(--roboto);
+  font-size: 20px;
+  line-height: 16px;
+  text-align: right;
+  color: var(--span);
+  margin-bottom: 10px;
+}
+
+.special-card__days {
+  font-family: var(--roboto);
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: var(--red-light);
+}
+
+.special-card__description {
+  margin-left: 16px;
+  font-family: var(--roboto);
+  font-size: 12px;
+  line-height: 16px;
+  color: #242424;
+  width: 267px;
+}
+
+.special-card__button {
+  width: 266px;
+  height: 40px;
+  background: var(--white);
+  border: 2px solid var(--red);
+  border-radius: 3px;
+  font-family: var(--roboto);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--red);
+  margin: 0 0 20px 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.special-card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.special-card__button:hover {
+  opacity: 0.6;
+}

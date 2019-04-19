@@ -1,0 +1,47 @@
+.download {
+  background: linear-gradient(168.96deg, #00b0de 0%, #196ebd 100%);
+  border: 1px solid var(--white);
+  height: 281px;
+  display: flex;
+  justify-content: center;
+}
+
+.download__phone {
+  margin: -27px 79px 0 0;
+}
+
+.download__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--white);
+
+}
+
+.download__span {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.download__system {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 430px;
+  margin-top: 40px;
+}
+
+.download__li {
+  border-right: 1px solid var(--white);
+  padding: 0 21px 0 20px;
+  cursor: pointer;
+}
+
+.download__li:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-screen {
+  background: linear-gradient(151.09deg, #00b0de 0.3%,
+  #01aedc 4%, #02abdb 7.77%, #02abdb 11%,
+  #02abdb 11%, #196ebd 100%);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.main-screen__wrapper {
+  margin-top: 254px;
+}
+
+.main-screen__title {
+  font-family: var(--roboto);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--white);
+  text-align: center;
+}
+
+.main-screen__smaller-text {
+  font-family: var(--roboto);
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--white);
+  text-align: center;
+}
+
+.main-screen__cta-button {
+  margin: 48px 0 254px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+.more {
+  text-decoration: none;
+  font-family: var(--roboto);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--link);
+}
+
+.more:hover {
+  text-decoration: underline;
+}

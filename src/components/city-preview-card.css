@@ -1,0 +1,55 @@
+.city-preview-card {
+  border-radius: 8px;
+  margin-bottom: 31px;
+  width: 510px;
+  cursor: pointer;
+}
+
+.city-preview-card:hover {
+  opacity: 0.9;
+}
+
+.city-preview-card__date {
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--light-gray);
+}
+
+.city-preview-card__footer {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 12px rgba(0, 75, 93, 0.12);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 12px 23px 16px 24px;
+}
+
+.city-preview-card__image {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+  margin-bottom: -4px;
+  height: 212px;
+}
+
+.city-preview-card__price {
+  font-family: var(--roboto);
+  font-size: 22px;
+  line-height: 32px;
+  text-align: right;
+  color: var(--brand-color);
+
+}
+
+.city-preview-card__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.city-preview-card__town {
+  display: flex;
+  flex-direction: column;
+}

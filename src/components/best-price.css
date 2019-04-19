@@ -1,0 +1,35 @@
+.best-price {
+  list-style: none;
+  min-width: 365px;
+  padding: 0 40px;
+  margin-top: 60px;
+}
+
+.best-price__city {
+  font-family: var(--roboto);
+  font-size: 16px;
+  line-height: 45px;
+  color: var(--font-color);
+
+}
+
+.best-price__offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.best-price__price {
+  font-family: var(--roboto);
+  font-size: 16px;
+  line-height: 45px;
+  color: var(--brand-color);
+}
+
+.best-price--border {
+  list-style: none;
+  min-width: 365px;
+  border-right: 1px dashed var(--light-gray);
+  border-left: 1px dashed var(--light-gray);
+  padding: 0 40px;
+  margin-top: 60px;
+}

@@ -1,0 +1,25 @@
+.instructions {
+  width: 1034px;
+}
+
+.instructions__title {
+  font-family: var(--roboto);
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--font-color);
+}
+
+.instructions__article {
+  font-family: var(--roboto);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--font-color);
+}
+
+.instructions__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}

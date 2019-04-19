@@ -1,0 +1,19 @@
+.offers__opportunities {
+  font-family: var(--roboto);
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.offers__opportunities-addition {
+  font-family: var(--roboto);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--additional);
+
+}
+
+.offers__wrapper {
+  margin: 80px 0 90px;
+}

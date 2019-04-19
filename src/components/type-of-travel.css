@@ -1,0 +1,38 @@
+.type-of-travel {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+.type-of-travel__link {
+  text-decoration: none;
+  font-family: var(--roboto);
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--link);
+}
+
+.type-of-travel__link--selected {
+  text-decoration: none;
+  font-family: var(--roboto);
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--span);
+  border-bottom: 1px solid var(--link);
+
+}
+
+.type-of-travel__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 56px;
+}
+
+.type-of-travel__icon--selected {
+  margin-top: -10px;
+}

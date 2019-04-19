@@ -1,0 +1,43 @@
+.parameter-info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.parameter-info__input {
+  width: 224px;
+  min-height: 56px;
+  border: none;
+  margin-right: 2px;
+  padding-left: 24px;
+}
+
+.parameter-info__icon {
+  position: absolute;
+  right: 16px;
+  top: 19px;
+}
+
+.parameter-info__red-icon {
+  position: absolute;
+  right: 16px;
+  top: 19px;
+}
+
+.parameter-info__round-left {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  font-family: var(--roboto);
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--font-color);
+}
+
+.parameter-info_round-right {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.parameter-info:hover {
+  opacity: 0.8;
+}

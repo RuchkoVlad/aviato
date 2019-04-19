@@ -1,0 +1,23 @@
+.popular-destination {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popular-destination__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin-top: 55px;
+  align-self: center;
+}
+
+.popular-destination__direct {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}

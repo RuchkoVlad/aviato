@@ -1,0 +1,15 @@
+.soc-link {
+  display: flex;
+  list-style: none;
+  margin: 0 16px 0 0;
+  padding: 0;
+}
+
+.soc-link__icon {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.soc-link__icon:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,39 @@
+@import "main-screen.css";
+@import "logo.css";
+@import "button.css";
+@import "parameter-info.css";
+@import "search-parameters.css";
+@import "type-of-travel.css";
+@import "popular-destination.css";
+@import "section-header.css";
+@import "city-preview-card.css";
+@import "location.css";
+@import "best-price.css";
+@import "offers.css";
+@import "partners.css";
+@import "mailing.css";
+@import "social-link.css";
+@import "special-offers.css";
+@import "special-card.css";
+@import "instructions.css";
+@import "more.css";
+@import "footer.css";
+@import "lists.css";
+@import "download.css";
+
+html {
+  --roboto: roboto, sans-serif;
+  --light-gray: #afbec6;
+  --brand-color: #00bae8;
+  --font-color: #4a4a4a;
+  --orenge: #ff9241;
+  --white: #fff;
+  --black: #000;
+  --span: #5b5b5c;
+  --border: #e0e6e8;
+  --active-btn: #ff6e41;
+  --link: #00ace2;
+  --additional: #a0b0b9;
+  --red: #cd2027;
+  --red-light: #d93633;
+}

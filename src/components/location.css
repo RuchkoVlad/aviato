@@ -1,0 +1,28 @@
+.location {
+  display: flex;
+}
+
+.location__city {
+  font-family: var(--roboto);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+  color: var(--font-color);
+}
+
+.location__country {
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--light-gray);
+}
+
+.location__country-flag {
+  height: 42px;
+}
+
+.uk {
+  height: 30px;
+  margin: 6px 5px 0 0;
+}
