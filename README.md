@@ -1,13 +1,13 @@
-# Aviasales
+# Project Name
 
-### [Demo](https://ruchkovlad.github.io/aviato/src/index.html)
-#link in Figma ( https://www.figma.com/file/BWsddrBywlafm22cEwP47U/aviasales-(Copy) )
-### Main page of site Aviasales
+### [Demo](https://link-to-github-pages.com)
 
-Training BEM
+### Description
+
+Tell about your project
 
 ### Technologies are used
 
 - HTML
 - CSS
-- BEM(without modification)
+- ...

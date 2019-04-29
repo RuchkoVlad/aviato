@@ -14,7 +14,6 @@
   font-size: 12px;
   line-height: 29px;
   color: var(--span);
-  cursor: pointer;
 }
 
 .lists__last {
@@ -24,11 +23,15 @@
   line-height: 16px;
   color: var(--font-color);
   margin-top: 15px;
-  cursor: pointer;
 }
 
-.lists__last:hover {
+.lists__link:hover {
   text-decoration: underline;
+}
+
+.lists__link {
+  text-decoration: none;
+  color: var(--font-color);
 }
 
 .lists__span {
@@ -36,7 +39,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: var(--font-color);
   margin-bottom: 21px;
   display: block;
 }

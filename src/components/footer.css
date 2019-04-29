@@ -15,7 +15,6 @@
   margin-top: 19px;
   padding: 0;
   width: 500px;
-  cursor: pointer;
 }
 
 .footer__buttons img:hover {
@@ -42,7 +41,6 @@
   padding: 0;
   width: 620px;
   margin-top: 0;
-  cursor: pointer;
 }
 
 .footer__li-soc:hover {
@@ -51,4 +49,9 @@
 
 .footer__li:hover {
   text-decoration: underline;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: var(--font-color);
 }

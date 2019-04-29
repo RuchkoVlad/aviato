@@ -39,9 +39,12 @@
 .download__li {
   border-right: 1px solid var(--white);
   padding: 0 21px 0 20px;
-  cursor: pointer;
 }
 
-.download__li:hover {
+.download__link:hover {
   opacity: 0.6;
+}
+
+.download__link {
+  text-decoration: none;
 }

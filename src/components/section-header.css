@@ -9,7 +9,6 @@
 .section-header__link {
   color: var(--link);
   font-weight: 400;
-  cursor: pointer;
 }
 
 .section-header__link:hover {

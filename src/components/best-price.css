@@ -33,3 +33,7 @@
   padding: 0 40px;
   margin-top: 60px;
 }
+
+.best-price__link {
+  text-decoration: none;
+}
