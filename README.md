@@ -1,10 +1,12 @@
-# Project Name
+# Main page Aviasales.ru
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://ruchkovlad.github.io/aviato/src/index.html)
+
+## Link for Figma (https://www.figma.com/file/BWsddrBywlafm22cEwP47U/aviasales-(Copy))
 
 ### Description
 
-Tell about your project
+Website for booking and buying tickets
 
 ### Technologies are used
 
