@@ -10,4 +10,4 @@ Website for booking and buying tickets
 
 - HTML
 - CSS
-- ...
+- BEM
